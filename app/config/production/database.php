@@ -25,7 +25,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'foobooks',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'LaoG6FLMrQ',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
