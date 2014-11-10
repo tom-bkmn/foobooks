@@ -23,11 +23,11 @@ class CreateBooksTable extends Migration {
 		$table->timestamps();
 	
 		# The rest of the fields...
-		$table->string('title');
-		$table->string('author');
+		$table->string('title',255);
+		$table->string('author',255);
 		$table->integer('published');
-		$table->string('cover');
-		$table->string('purchase_link');
+		$table->string('cover',255);
+		$table->string('purchase_link',255);
 	
 		# FYI: We're skipping the 'tags' field for now; more on that later.
 	
